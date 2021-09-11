@@ -6,8 +6,7 @@ endif
 
 let colors_name = "vim-cterm"
 
-hi Normal		ctermfg=white ctermbg=black
-
+highlight Normal		     ctermfg=NONE ctermbg=NONE cterm=NONE ctermul=NONE
 
 "highlight ColorColumn    term=reverse ctermfg=7 ctermbg=8 guibg=DarkRed
 highlight Comment        ctermfg=gray ctermbg=NONE cterm=NONE ctermul=NONE
