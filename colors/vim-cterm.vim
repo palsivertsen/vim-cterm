@@ -28,9 +28,9 @@ highlight Error          ctermfg=red ctermbg=NONE cterm=NONE ctermul=NONE
 highlight Identifier     ctermfg=blue ctermbg=NONE cterm=NONE ctermul=NONE
 "highlight Ignore         ctermfg=15 guifg=bg
 "highlight IncSearch      term=reverse cterm=reverse gui=reverse
-highlight LineNr         ctermfg=darkgray ctermbg=NONE cterm=NONE ctermul=NONE
-"highlight LineNrAbove    cleared
-"highlight LineNrBelow    cleared
+highlight LineNr         ctermfg=gray ctermbg=NONE cterm=NONE ctermul=NONE
+highlight LineNrAbove    ctermfg=darkgray ctermbg=NONE cterm=NONE ctermul=NONE
+highlight! link LineNrBelow LineNrAbove
 "highlight MatchParen     term=reverse ctermbg=14 guibg=DarkCyan
 "highlight ModeMsg        term=bold cterm=bold gui=bold
 "highlight MoreMsg        term=bold ctermfg=2 gui=bold guifg=SeaGreen
