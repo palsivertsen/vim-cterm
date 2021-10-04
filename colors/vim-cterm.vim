@@ -36,10 +36,10 @@ highlight! link LineNrBelow LineNrAbove
 "highlight MoreMsg        term=bold ctermfg=2 gui=bold guifg=SeaGreen
 "highlight NonText        term=bold ctermfg=12 gui=bold guifg=Blue
 "highlight Normal         cleared
-"highlight Pmenu          ctermfg=15 ctermbg=8 guibg=Magenta
-"highlight PmenuSbar      ctermbg=8 guibg=Grey
-"highlight PmenuSel       ctermfg=8 ctermbg=15 guibg=DarkGrey
-"highlight PmenuThumb     ctermbg=0 guibg=White
+highlight Pmenu          ctermfg=white ctermbg=darkgray cterm=NONE ctermul=NONE
+highlight PmenuSbar      ctermfg=cyan ctermbg=darkgray cterm=NONE ctermul=NONE
+highlight PmenuSel       ctermfg=black ctermbg=gray cterm=NONE ctermul=NONE
+highlight PmenuThumb     ctermfg=cyan ctermbg=gray cterm=NONE ctermul=NONE
 "highlight PreProc        term=underline ctermfg=5 guifg=#ff80ff
 "highlight Question       term=standout ctermfg=2 gui=bold guifg=Green
 "highlight Search         term=reverse ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
