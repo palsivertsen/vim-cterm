@@ -67,3 +67,5 @@ highlight Type           ctermfg=cyan ctermbg=NONE cterm=NONE ctermul=NONE
 "highlight WarningMsg     term=standout ctermfg=1 guifg=Red
 "highlight WildMenu       term=standout ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
 
+" Non standard highlight groups
+highlight Warning        ctermfg=yellow ctermbg=NONE cterm=NONE ctermul=NONE
