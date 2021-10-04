@@ -31,7 +31,7 @@ highlight Identifier     ctermfg=blue ctermbg=NONE cterm=NONE ctermul=NONE
 highlight LineNr         ctermfg=gray ctermbg=NONE cterm=NONE ctermul=NONE
 highlight LineNrAbove    ctermfg=darkgray ctermbg=NONE cterm=NONE ctermul=NONE
 highlight! link LineNrBelow LineNrAbove
-"highlight MatchParen     term=reverse ctermbg=14 guibg=DarkCyan
+highlight MatchParen     ctermfg=magenta ctermbg=NONE cterm=underline ctermul=NONE
 "highlight ModeMsg        term=bold cterm=bold gui=bold
 "highlight MoreMsg        term=bold ctermfg=2 gui=bold guifg=SeaGreen
 "highlight NonText        term=bold ctermfg=12 gui=bold guifg=Blue
