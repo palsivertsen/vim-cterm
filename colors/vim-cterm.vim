@@ -56,7 +56,7 @@ highlight Statement      ctermfg=darkred ctermbg=NONE cterm=NONE ctermul=NONE
 "highlight TabLineSel     term=bold cterm=bold gui=bold
 "highlight TermCursor     cterm=reverse
 "highlight Title          term=bold ctermfg=5 gui=bold guifg=Magenta
-"highlight Todo           term=standout ctermfg=0 ctermbg=11 guifg=Blue guibg=Yellow
+highlight Todo           ctermfg=red ctermbg=blue cterm=NONE ctermul=NONE
 "highlight ToolbarButton  cterm=bold ctermfg=0 ctermbg=7 gui=bold guifg=Black guibg=LightGrey
 "highlight ToolbarLine    term=underline ctermbg=242 guibg=Grey50
 highlight Type           ctermfg=cyan ctermbg=NONE cterm=NONE ctermul=NONE
