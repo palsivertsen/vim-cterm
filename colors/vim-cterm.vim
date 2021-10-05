@@ -34,7 +34,7 @@ highlight! link LineNrBelow LineNrAbove
 highlight MatchParen     ctermfg=magenta ctermbg=NONE cterm=underline ctermul=NONE
 "highlight ModeMsg        term=bold cterm=bold gui=bold
 "highlight MoreMsg        term=bold ctermfg=2 gui=bold guifg=SeaGreen
-"highlight NonText        term=bold ctermfg=12 gui=bold guifg=Blue
+highlight NonText        ctermfg=darkGray ctermbg=NONE cterm=NONE ctermul=NONE
 "highlight Normal         cleared
 highlight Pmenu          ctermfg=white ctermbg=darkgray cterm=NONE ctermul=NONE
 highlight PmenuSbar      ctermfg=cyan ctermbg=darkgray cterm=NONE ctermul=NONE
@@ -45,7 +45,7 @@ highlight PmenuThumb     ctermfg=cyan ctermbg=gray cterm=NONE ctermul=NONE
 "highlight Search         term=reverse ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
 highlight SignColumn     ctermfg=white ctermbg=NONE cterm=NONE ctermul=NONE
 "highlight Special        term=bold ctermfg=5 guifg=Orange
-"highlight SpecialKey     term=bold ctermfg=4 guifg=Cyan
+highlight SpecialKey     ctermfg=darkGray ctermbg=NONE cterm=NONE ctermul=NONE
 highlight SpellBad       ctermfg=NONE ctermbg=NONE cterm=undercurl ctermul=darkred
 highlight SpellCap       ctermfg=NONE ctermbg=NONE cterm=undercurl ctermul=yellow
 "highlight SpellLocal     term=undercurl ctermbg=14 gui=undercurl guisp=Cyan
