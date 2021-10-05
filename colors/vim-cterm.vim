@@ -44,7 +44,7 @@ highlight PmenuThumb     ctermfg=cyan ctermbg=gray cterm=NONE ctermul=NONE
 "highlight Question       term=standout ctermfg=2 gui=bold guifg=Green
 "highlight Search         term=reverse ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
 highlight SignColumn     ctermfg=white ctermbg=NONE cterm=NONE ctermul=NONE
-"highlight Special        term=bold ctermfg=5 guifg=Orange
+highlight Special        ctermfg=blue ctermbg=NONE cterm=bold ctermul=NONE
 highlight SpecialKey     ctermfg=darkGray ctermbg=NONE cterm=NONE ctermul=NONE
 highlight SpellBad       ctermfg=NONE ctermbg=NONE cterm=undercurl ctermul=darkred
 highlight SpellCap       ctermfg=NONE ctermbg=NONE cterm=underline ctermul=yellow
