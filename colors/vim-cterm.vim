@@ -47,9 +47,9 @@ highlight SignColumn     ctermfg=white ctermbg=NONE cterm=NONE ctermul=NONE
 "highlight Special        term=bold ctermfg=5 guifg=Orange
 highlight SpecialKey     ctermfg=darkGray ctermbg=NONE cterm=NONE ctermul=NONE
 highlight SpellBad       ctermfg=NONE ctermbg=NONE cterm=undercurl ctermul=darkred
-highlight SpellCap       ctermfg=NONE ctermbg=NONE cterm=undercurl ctermul=yellow
-"highlight SpellLocal     term=undercurl ctermbg=14 gui=undercurl guisp=Cyan
-"highlight SpellRare      term=undercurl ctermbg=13 gui=undercurl guisp=Magenta
+highlight SpellCap       ctermfg=NONE ctermbg=NONE cterm=underline ctermul=yellow
+highlight SpellLocal     ctermfg=NONE ctermbg=NONE cterm=undercurl ctermul=yellow
+highlight SpellRare      ctermfg=NONE ctermbg=NONE cterm=undercurl ctermul=blue
 highlight Statement      ctermfg=darkred ctermbg=NONE cterm=NONE ctermul=NONE
 "highlight TabLine        term=underline cterm=underline ctermfg=0 ctermbg=7 gui=underline guibg=DarkGrey
 "highlight TabLineFill    term=reverse cterm=reverse gui=reverse
